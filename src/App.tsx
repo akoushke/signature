@@ -1,4 +1,3 @@
-import React from "react";
 import Background from "./components/Background";
 import Header from "./widgets/Header";
 import Body from "./widgets/Body";
