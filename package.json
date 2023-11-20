@@ -25,7 +25,7 @@
     "eject": "react-scripts eject",
     "prepare": "husky install",
     "lint": "prettier --check  .",
-    "format": "prettier --write  '**/*.{ts,tsx,json,md,scss}' --write && npm run lint --fix",
+    "format": "prettier --write  '**/*.{ts,tsx,json,md,scss,yaml}' --write && npm run lint --fix",
     "lint-style": "stylelint --allow-empty-input **/*.scss",
     "wdio": "TS_NODE_PROJECT=\"./test/tsconfig.json\" wdio run wdio.conf.ts "
   },
